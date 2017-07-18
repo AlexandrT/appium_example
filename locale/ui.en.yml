@@ -1,0 +1,10 @@
+en:
+  cards:
+    my: My cards
+    all: All my cards
+
+  splash_screen:
+    skip: Skip all
+
+  profile:
+    fill: Please fill your profile

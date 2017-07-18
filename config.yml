@@ -1,0 +1,54 @@
+---
+production:
+  contacts:
+    email: 'klipmash@gmail.com'
+    phone: '79153473411'
+
+  sender:
+    address: 'smtp.gmail.com'
+    login: 'cp.auth.test'
+    password: 'password'
+    port: 587
+
+  recipient:
+    positive_result: 'klipmash@gmail.com'
+    negative_result: 'klipmash@gmail.com'
+
+  timezone: 'Europe/Moscow'
+
+  country: "RU"
+
+  slack:
+    webhook: "https://hooks.slack.com/services/TB1JU/2UN4/nsFjrm2OlbHadBj"
+    channel: "monitoring"
+
+  log_file: 'test.log'
+
+  apk_path: '/root/www/test_reg/example.apk'
+
+development:
+  contacts:
+    email: 'klipmash@gmail.com'
+    phone: '79153473411'
+
+  sender:
+    address: 'smtp.gmail.com'
+    login: 'cp.auth.test'
+    password: 'password'
+    port: 587
+
+  recipient:
+    positive_result: 'klipmash@gmail.com'
+    negative_result: 'klipmash@gmail.com'
+
+  timezone: 'Europe/Moscow'
+
+  country: "RU"
+
+  slack:
+    webhook:  "https://hooks.slack.com/services/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"
+    channel: "tests"
+
+  log_file: 'test.log'
+
+  apk_path: "/root/www/test_reg/example.apk"

@@ -1,0 +1,10 @@
+ru:
+  cards:
+    my: Мои карты
+    all: Все мои карты
+
+  splash_screen:
+    skip: Пропустить всё
+
+  profile:
+    fill: Заполните данные профиля
